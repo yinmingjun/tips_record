@@ -1,0 +1,10 @@
+# 查看端口对应的进程
+# mac :   lsof -i:8080
+# linux : neststat -anltp | grep 8080
+
+lsof -i:8080
+
+# 查看所有进程
+ps -e
+ps -A 
+
